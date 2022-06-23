@@ -21,5 +21,10 @@ Route::get('/', function () {
 
 })->name('home');
 
+Route::get('characters', function () {
 
+    // dump($data);
+    return view('characters');
+
+})->name('characters');
 

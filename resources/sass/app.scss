@@ -1,7 +1,15 @@
+
+// IMPORTS
+
 @import '_vars.scss';
 @import '_general.scss';
 @import '_utils.scss';
 @import '_card.scss';
+
+// IMPORTS
+
+// ----------------------------------
+
 
 // HEADER
 header {
@@ -41,6 +49,9 @@ header {
 
 // /HEADER
 
+
+// ----------------------------------------------
+
 // MAIN
 
 .prova{
@@ -76,12 +87,14 @@ header {
   background-image: url('../img/jumbotron.jpg');
 }
 
+
+
 // card
 
 // /MAIN
 
 
-
+// -----------------------------------
 
 
 // FOOTER
@@ -102,6 +115,7 @@ header {
       cursor: pointer;
       img{
         height: 70px;
+      
       }
       p{
         color: white;

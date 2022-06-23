@@ -9,20 +9,17 @@
 
         @foreach ($comics as $comic )
         
-        <div class="wrapper">
-          <div class="img-container">
-           <img src="{{ $comic->image }}" alt="{{ $comic->title }}">
+          <div class="wrapper">
+            <div class="img-container">
+            <img src="{{ $comic->image }}" alt="{{ $comic->title }}">
+            </div>
+            <p>{{ $comic->title }}</p>
           </div>
-          <p>{{ $comic->title }}</p>
-        </div>
-        
+
         @endforeach
         <button><a href="#">LOAD MORE</a></button>
       </div>
   </div>
-
-
-  
 </main>
 
 @endsection

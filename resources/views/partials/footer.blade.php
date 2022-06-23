@@ -86,11 +86,11 @@
         <button><a href="#">SIGN-UP NOW!!</a></button>
         <ul>
           <h2>FOLLOW US</h2>
-          <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-          <li><img src="../assets/img/footer-periscope.png" alt=""></li>
-          <li><img src="../assets/img/footer-pinterest.png" alt=""></li>
-          <li><img src="../assets/img/footer-twitter.png" alt=""></li>
-          <li><img src="../assets/img/footer-youtube.png" alt=""></li>
+          <li><img src="{{ asset('img/footer-facebook.png') }}" alt=""></li>
+          <li><img src="{{ asset('img/footer-periscope.png') }}" alt=""></li>
+          <li><img src="{{ asset('img/footer-pinterest.png') }}" alt=""></li>
+          <li><img src="{{ asset('img/footer-twitter.png') }}" alt=""></li>
+          <li><img src="{{ asset('img/footer-youtube.png') }}" alt=""></li>
         </ul>
       </div>
     </div>

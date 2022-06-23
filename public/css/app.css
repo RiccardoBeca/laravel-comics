@@ -30,7 +30,7 @@ body {
 }
 .wrapper p {
   font-size: 0.75rem;
-  padding-top: 15px;
+  padding-top: 30px;
   color: white;
   text-transform: uppercase;
 }
@@ -38,6 +38,13 @@ body {
   height: 150px;
   width: 150px;
   overflow: hidden;
+  border-radius: 50px;
+  transition: 500ms ease-in-out;
+  cursor: pointer;
+}
+.wrapper .img-container:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 .wrapper .img-container img {
   width: 100%;

@@ -6,7 +6,7 @@
     <nav>
       <ul>
         <li>
-          <a href="">CHARACTERS</a>
+          <a class="{{ Route::currentRouteName() ==='characters' ? 'active' : '' }}" href="{{ route('characters') }}" href="{{route('characters')}}">CHARACTERS</a>
         </li>
         <li>
           <a class="{{ Route::currentRouteName() ==='home' ? 'active' : '' }}" href="{{ route('home') }}">COMICS</a>

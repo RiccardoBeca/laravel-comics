@@ -40,6 +40,41 @@ header {
 
 // /HEADER
 
+// MAIN
+
+.prova{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background-color: rgb(28, 28, 28);
+  padding: 40px;
+} 
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  button{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%);
+  border-style: none;
+  border: 2px solid $project-color;
+  padding: 5px 40px;
+  background-color: $project-color;
+  a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+  }
+}
+}
+.jumbotron{
+  height: 400px;
+  background-image: url('../img/jumbotron.jpg');
+}
+
 
 
 
@@ -85,7 +120,7 @@ header {
   align-items: center;
   height: 450px;
   overflow: hidden;
-  background-image: url('/public/img/footer-bg.jpg');
+  background-image: url('../img/footer-bg.jpg');
   background-size: cover;
   .w-70{
     justify-content: space-between;

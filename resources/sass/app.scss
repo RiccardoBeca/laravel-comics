@@ -1,1 +1,163 @@
-//
+@import '_vars.scss';
+@import '_general.scss';
+@import '_utils.scss';
+
+// HEADER
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  .logo{
+    display: flex;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    ul{
+      display: flex;
+      list-style: none;
+    }
+    li a{
+      font-weight: bold;
+      text-decoration: none;
+      color: #53514c;
+      margin: 15px;
+      &:hover{
+        color: $project-color;
+        border-bottom: 3px solid $project-color;
+        padding-bottom: 40px;
+      }
+      &.active{
+        color: $project-color;
+        border-bottom: 3px solid $project-color;
+        padding-bottom: 40px;
+      }
+    }  
+  }
+}
+
+// /HEADER
+
+
+
+
+
+
+// FOOTER
+
+.footer-top{
+  background-color: $project-color;
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+  ul{
+    display: flex;
+    list-style: none;
+    li{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 30px;
+      cursor: pointer;
+      img{
+        height: 70px;
+      }
+      p{
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+        padding-left: 10px;
+        min-width: max-content;
+      }
+    }
+  }
+}
+// FOOTER MID
+.footer-mid{
+  .list-container{
+    display: flex;
+    padding-top: 100px;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  overflow: hidden;
+  background-image: url('/public/img/footer-bg.jpg');
+  background-size: cover;
+  .w-70{
+    justify-content: space-between;
+  }
+  ul{
+    padding-right: 70px;
+    list-style: none;
+    h2{
+      color: white;
+    }
+    li{
+      padding-top: 10px;
+    }
+    a{
+      color:#929191;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+      
+    }
+  }
+  .left-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    ul:last-of-type{
+      margin-top: 30px;
+
+    }
+  }
+  .mid-col{
+    display: flex;
+  }
+  .bg-logo{
+    display: flex;
+  }
+  // img{
+  // }
+}
+
+// FOOTER BOTTOM
+.footer-btm{
+  display: flex;
+  justify-content: center;
+  padding: 50PX;
+  background-color: rgb(48, 48, 48);
+  button{
+    border-style: none;
+    border: 2px solid $project-color;
+    padding: 20px 25px;
+    background-color: rgb(48, 48, 48);
+    a{
+      font-size: 17px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    h2{
+      align-self: center;
+      color: $project-color;
+      margin-right: 30px;
+    }
+    li{
+      padding-right: 30px;
+      align-self: center;
+      cursor: pointer;
+    }
+  } 
+}
+

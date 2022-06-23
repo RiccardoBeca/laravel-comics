@@ -10,7 +10,6 @@
         </li>
         <li>
           <a class="{{ Route::currentRouteName() ==='home' ? 'active' : '' }}" href="{{ route('home') }}">COMICS</a>
-
         </li>
         <li>
           <a href="">MOVIES</a>

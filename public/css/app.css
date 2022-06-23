@@ -24,6 +24,25 @@ body {
   justify-content: flex-start;
 }
 
+.wrapper {
+  width: 16.6666666667%;
+  padding-bottom: 50px;
+}
+.wrapper p {
+  font-size: 0.75rem;
+  padding-top: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+.wrapper .img-container {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+.wrapper .img-container img {
+  width: 100%;
+}
+
 header {
   display: flex;
   justify-content: center;
